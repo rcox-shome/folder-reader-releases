@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem in the experimental preview.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please use fictional examples. Do not attach private documents, history files, or full local paths."
+  - type: input
+    id: app-version
+    attributes:
+      label: Folder Reader version
+      placeholder: "0.1.2"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Mac and macOS version
+      placeholder: "Apple silicon Mac, macOS ..."
+    validations:
+      required: true
+  - type: input
+    id: file-type
+    attributes:
+      label: File type or folder source
+      placeholder: "PDF, XLSX, local folder, cloud folder..."
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, what did you expect, and what happened?
+    validations:
+      required: true

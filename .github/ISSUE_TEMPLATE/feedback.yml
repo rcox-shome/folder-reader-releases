@@ -1,0 +1,19 @@
+name: Workflow feedback
+description: Share how Folder Reader fits your work or what is missing.
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public issue. Keep documents, client details, and local paths private."
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What kind of folder are you working through?
+      description: Describe the file types and workflow without sharing private content.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What helped, and what got in the way?
+    validations:
+      required: true

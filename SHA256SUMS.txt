@@ -1,0 +1,1 @@
+8c7d02b54f6d1e2af92ba79cb268ceceed501d2004ced1abf82020e2db426c6a  FolderReader-0.1.2-macOS-arm64.zip
